@@ -1,1 +1,1 @@
-# Frosh2022
+# McGill Frosh2022 Website
