@@ -18,7 +18,6 @@ npm i -g @nestjs/cli
 ## Run Backend
 Make sure Docker Desktop is open\
 cd backend\
-npm i\
 npm run start:dev
 
 ## Run Frontend
