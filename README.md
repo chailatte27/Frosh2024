@@ -16,12 +16,12 @@ sudo npm install npm --global
 npm i -g @nestjs/cli
 
 ## Run Backend
-Make sure Docker Desktop is open
-cd backend
-npm i
+Make sure Docker Desktop is open\
+cd backend\
+npm i\
 npm run start:dev
 
 ## Run Frontend
-cd frontend
-npm i
+cd frontend\
+npm i\
 npm run start
