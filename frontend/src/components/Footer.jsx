@@ -79,7 +79,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        Email : oweek.mcgilleus.ca
+        Email : oweek.communications@gmail.com
       </Typography>
       <hr style={{ width: "50%", opacity: 0.2 }} />
       <Typography

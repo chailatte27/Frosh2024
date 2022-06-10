@@ -16,5 +16,7 @@ COPY . .
 # Creates a "dist" folder with the production build
 RUN npm run build
 
+RUN --name frosh2022 -e POSTGRES_PASSWORD=password -d postgres
+
 # Start the server using the production build
-CMD [ "node", "dist/main.js" ]
+CMD [ "npm", "run","start:prod" ]

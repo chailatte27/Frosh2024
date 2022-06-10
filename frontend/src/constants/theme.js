@@ -21,6 +21,8 @@ const lightTheme = {
   typography: {
     h2: {
       textAlign: "center",
+      fontWeight: "500",
+      fontSize: "4rem",
     },
     h3: {
       textAlign: "center",
@@ -35,7 +37,7 @@ const lightTheme = {
     primary: purple,
 
     secondary: {
-      main: "#11cb5f",
+      main: "#eb21a7",
     },
   },
 };
@@ -54,6 +56,8 @@ const darkTheme = {
     h2: {
       color: "white",
       textAlign: "center",
+      fontWeight: "500",
+      fontSize: "4rem",
     },
     h6: {
       color: "white",
