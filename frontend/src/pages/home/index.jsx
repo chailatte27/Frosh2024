@@ -1,23 +1,28 @@
 import { useTheme } from "@emotion/react";
 import { Card, CardMedia, Typography } from "@mui/material";
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Parallax, ParallaxProvider, useParallax } from "react-scroll-parallax";
-import Header from "../../images/header_welcome.png";
-import UpcomingTimeline from "./UpcomingTimeline";
+import { WHAT_IS_FROSH } from "../../constants/home";
+import Header from "../../images/header_welcome.jpeg";
 import SponsorImage from "../../images/sponsors.png";
+
+const HEADER_HEIGHT = "560px";
 
 export default function Home() {
   const theme = useTheme();
   return (
-    <ParallaxProvider>
+    <Fragment>
       <div
         style={{
           position: "fixed",
           textAlign: "center",
           zIndex: -1,
           width: "100%",
-          height: "375px",
+          height: HEADER_HEIGHT,
+
+          paddingLeft: "auto",
+          paddingRight: "auto",
           // backgroundColor: theme.background,
         }}
       >
@@ -33,10 +38,15 @@ export default function Home() {
           zIndex: 1,
           backgroundColor: theme.background,
           borderRadius: "5px 5px 0 0",
-          boxShadow: `0px -6px 40px 15px ${theme.background}`,
-          marginTop: "375px",
+          boxShadow: `0px 20px 60px 90px ${theme.background}`,
+          // boxShadow: `0px -6px 40px 15px ${theme.background}`,
+          marginTop: HEADER_HEIGHT,
         }}
       >
+        <div style={{ padding: "10px 50px 50px 50px" }}>
+          <Typography variant="h2">What is Frosh?</Typography>
+          <Typography variant="p">{WHAT_IS_FROSH}</Typography>
+        </div>
         <div
           style={{
             width: "90%",
@@ -46,16 +56,15 @@ export default function Home() {
             height: "fit-content",
           }}
         >
-          <Typography variant="h2">Frosh Theme</Typography>
+          <Typography variant="h2">Frosh Trailer</Typography>
           <iframe
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            src="https://www.youtube.com/embed/LJWuFxlnTDg"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           />
         </div>
-        <UpcomingTimeline />
         <div>
           <Typography variant="h2">Sponsors</Typography>
           <Card
@@ -83,6 +92,6 @@ export default function Home() {
           </Card>
         </div>
       </div>
-    </ParallaxProvider>
+    </Fragment>
   );
 }

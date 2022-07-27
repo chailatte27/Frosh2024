@@ -12,7 +12,7 @@ import { RESOURCES } from "../../constants/resources";
 export default function Resources() {
   return (
     <div style={{ padding: "10px" }}>
-      <Typography variant="h2"> Resources</Typography>
+      <Typography variant="h1"> Resources</Typography>
 
       <div className="hide-small">
         <Grid container spacing={5}>

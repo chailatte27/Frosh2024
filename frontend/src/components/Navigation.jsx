@@ -5,9 +5,9 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import MenuIcon from "@mui/icons-material/Menu";
+import MapIcon from "@mui/icons-material/Map";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import FroshIcon from "@mui/icons-material/Celebration";
 import HomeIcon from "@mui/icons-material/Home";
 import MessageIcon from "@mui/icons-material/Message";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
@@ -15,6 +15,7 @@ import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
+import FroshIcon from "../images/frosh_logo.png";
 
 import { useNavigate } from "react-router";
 import {
@@ -30,12 +31,12 @@ import { useTheme } from "@emotion/react";
 
 const pages = [
   { name: "Home", link: "", icon: <HomeIcon /> },
-  { name: "Blog", link: "blog", icon: <MessageIcon /> },
+  { name: "Schedule", link: "schedule", icon: <MessageIcon /> },
   { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
+  { name: "Map", link: "map", icon: <MapIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
   { name: "Register Now", link: "register", icon: <ArrowCircleRightIcon /> },
 ];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
   const theme = useTheme();
@@ -62,7 +63,14 @@ const ResponsiveAppBar = () => {
       <AppBar position="sticky">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <FroshIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+            <Box sx={{ display: { xs: "none", md: "flex" } }}>
+              <img
+                src={FroshIcon}
+                width={50}
+                height={50}
+                style={{ paddingRight: "20px" }}
+              />
+            </Box>
             <Typography
               variant="h6"
               noWrap
@@ -92,7 +100,14 @@ const ResponsiveAppBar = () => {
                 <MenuIcon />
               </IconButton>
             </Box>
-            <FroshIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <Box sx={{ display: { xs: "flex", md: "none" } }}>
+              <img
+                src={FroshIcon}
+                width={50}
+                height={50}
+                style={{ paddingRight: "20px" }}
+              />
+            </Box>
             <Typography
               variant="h5"
               noWrap

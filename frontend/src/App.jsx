@@ -4,16 +4,17 @@ import { Routes } from "react-router";
 import Home from "./pages/home";
 import FAQ from "./pages/faq";
 import Navigation from "./components/Navigation";
-import Blog from "./pages/blog";
 import Resources from "./pages/resources";
 import React, { createContext, Fragment, useEffect, useMemo } from "react";
 import { createTheme, Typography, ThemeProvider } from "@mui/material";
 import { getTheme, ThemeContext } from "./constants/theme";
 import Register from "./pages/register";
 import Footer from "./components/Footer";
+import Schedule from "./pages/schedule";
+import Map from "./pages/map";
 
 function App() {
-  const [mode, setMode] = React.useState("light");
+  const [mode, setMode] = React.useState("dark");
   const colorMode = React.useMemo(
     () => ({
       toggleColorMode: () => {
@@ -35,7 +36,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/map" element={<Map />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/register" element={<Register />} />
           </Routes>

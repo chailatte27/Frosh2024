@@ -23,7 +23,7 @@ export default function FAQ() {
         marginTop: "10px",
       }}
     >
-      <Typography variant="h2">FAQ</Typography>
+      <Typography variant="h1">FAQ</Typography>
       {FAQQuestions.map((q, i) => (
         <Accordion
           expanded={expanded === q.question}
