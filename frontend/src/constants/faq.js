@@ -2,23 +2,23 @@ export const FAQQuestions = [
   {
     question: "What is Frosh?",
     answer:
-      "Frosh is a four-day event for new undergraduate students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
+      "Frosh 2022 is a five-day event for new undergraduate students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
   },
   {
     question: "When is Frosh?",
     answer:
-      "Frosh takes place from August 27th - August 30th 2020. Frosh is one of the events of Orientation Week, which takes place from August 26th - August 30th and classes will begin on September 3rd",
+      "Frosh takes place from August 25th - August 29th 2022. Classes will begin on August 31st",
   },
   {
     question: "What happens during frosh?",
     answer:
-      "Frosh is made up of a variety of social events, completely organized by students. The events of online frosh will be taking place on various platforms with a central one to guide you through. You’ll be attending all the events with your group of fellow engineers. For a full outline of what happens at each of our events, see the schedule on our social media and on the home page.",
+      "Frosh is made up of a variety of social events, completely organized by students.  You’ll be attending all the events with your group of fellow engineers. For a full outline of what happens at each of our events, see the schedule on our social media and on the schedule page.",
   },
 
   {
     question: "How do I register?",
     answer:
-      "Registration for all Froshes takes place through the same online system, which you can access through the “Register” button on this page. Registration is open up until the first day of Frosh (August 27th).",
+      "Registration for all Froshes takes place through the same online system, which you can access through the “Registration” page. Registration is open up until the first day of Frosh (August 25th). You can also register in person on the lower field starting on August 27th",
   },
   {
     question: "Why should I do Frosh?",
@@ -28,7 +28,7 @@ export const FAQQuestions = [
   {
     question: "How much does Frosh cost?",
     answer:
-      "Online frosh is completely free and other frosh-related events that may happen through the semester will vary in cost.",
+      "This year frosh is $___",
   },
   {
     question: "Are Frosh events mandatory?",
@@ -57,7 +57,7 @@ export const FAQQuestions = [
   {
     question: "Who are Leaders and O-Staff?",
     answer:
-      "Frosh Leaders are upper-year students who have been hired to guide you throughout Frosh. Your Leaders will also be your mentors throughout your first year at McGill, so be sure to get their contact information during Frosh and hit them up with any questions during or after Frosh! O-Staff are upper-year students who have been hired to help the Coordinators run all of the events at Frosh.They have all received extensive training, so feel free to approach them at any time, and they will be happy to answer your questions!",
+      "Frosh Leaders are upper-year students who have been hired to guide you throughout Frosh. Your Leaders will also be your mentors throughout your first year at McGill, so be sure to get their contact information during Frosh and hit them up with any questions during or after Frosh! O-Staff are upper-year students who have been hired to help the Coordinators run all of the events at Frosh. They have all received extensive training, so feel free to approach them at any time, and they will be happy to answer your questions!",
   },
   {
     question: "Who are Froshies?",
@@ -66,7 +66,7 @@ export const FAQQuestions = [
   {
     question: "Who can participate in Frosh?",
     answer:
-      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh. ",
+      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
   },
   {
     question: "I’m not in Engineering, can I sign up for Engineering Frosh?",
@@ -81,18 +81,13 @@ export const FAQQuestions = [
   },
   {
     question:
-      "Will there be any in-person events during the 2020 fall semester?",
+      "Will there be in-person events during the 2022 fall semester?",
     answer:
-      "We may possibly host in-person events during the fall semester, with that said they will only take place if and when governement regulations allow them and if they can be done safely.",
-  },
-  {
-    question: "Will there be a winter frosh?",
-    answer:
-      "There have been discussions about hosting an in-person frosh at the beginning of the winter semester, the event is not confirmed yet and will only take place if and when government and university regulations allow it.",
+      "Yes! This year we are aiming for a fully in-person frosh and a fully in-person fall semester (pending government regulations of course).",
   },
   {
     question: "Where can I learn more about groups and clubs on campus?",
     answer:
-      "We've put together an involvement video serie which showcases most clubs, committees and design team that you can join in the EUS, the playlist can be found on our Youtube channel (link in the footer) and on the EUS website.",
+      "There are a whole bunch of clubs and design teams invited to do presentations and introduce themselves at various frosh events. There will also be an involvement fair and a more specific EUS involvement day in the first few weeks of classes.",
   },
 ];
