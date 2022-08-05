@@ -14,11 +14,12 @@ export default function Map() {
           paddingTop: "20px",
         }}
       >
-          <iframe 
-          src="https://www.google.com/maps/d/embed?mid=1eL5VL549haGua8yGB-TihPa0CD7_vZs&ehbc=2E312F" 
-          width="640" 
-          height="480">
-          </iframe>
+        <iframe
+          title="Frosh Map"
+          src="https://www.google.com/maps/d/embed?mid=1eL5VL549haGua8yGB-TihPa0CD7_vZs&ehbc=2E312F"
+          width="640"
+          height="480"
+        ></iframe>
       </div>
     </div>
   );

@@ -1,8 +1,6 @@
 import { useTheme } from "@emotion/react";
 import { Card, CardMedia, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
-import { Parallax, ParallaxProvider, useParallax } from "react-scroll-parallax";
 import { WHAT_IS_FROSH } from "../../constants/home";
 import Header from "../../images/header_welcome.jpeg";
 import SponsorImage from "../../images/sponsors.png";
@@ -27,6 +25,7 @@ export default function Home() {
         }}
       >
         <img
+          alt="Frosh Banner"
           height="100%"
           width="100%"
           style={{ objectFit: "cover" }}
@@ -58,6 +57,7 @@ export default function Home() {
         >
           <Typography variant="h2">Frosh Trailer</Typography>
           <iframe
+            title="Frosh Trailer"
             width="100%"
             height="400"
             src="https://www.youtube.com/embed/LJWuFxlnTDg"
