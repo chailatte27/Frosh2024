@@ -6,7 +6,7 @@ export default function Register() {
   return (
     <div style={{ marginTop: "10px" }}>
       <Typography variant="h1">Registration</Typography>
-      <div style={{ padding: "10px 50px 50px 50px" }}>
+      <div style={{ padding: "10px 150px 50px 150px" }}>
         <div>
           <Typography variant="p">{HOW_TO_REGISTER}</Typography>
         </div>

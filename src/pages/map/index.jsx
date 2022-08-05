@@ -14,11 +14,11 @@ export default function Map() {
           paddingTop: "20px",
         }}
       >
-        <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1xkC5edeGraK4moqIgJbXdv0u1ip-n98&ehbc=2E312F"
-          width="100%"
-          height="480"
-        ></iframe>
+          <iframe 
+          src="https://www.google.com/maps/d/embed?mid=1eL5VL549haGua8yGB-TihPa0CD7_vZs&ehbc=2E312F" 
+          width="640" 
+          height="480">
+          </iframe>
       </div>
     </div>
   );
