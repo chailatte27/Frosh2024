@@ -8,6 +8,9 @@ on:
     branches: [ "master" ]
     
 
+defaults:
+  run:
+    working-directory: frontend
 
 jobs:
   build:
