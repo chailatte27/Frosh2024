@@ -18,7 +18,7 @@ jobs:
     steps:
     - run: |
           ls
-          cd frontend
+          pwd
           npm ci
           npm run build --if-present
           npm test
