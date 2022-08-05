@@ -88,7 +88,7 @@ export default function Footer() {
           fontSize: "12px",
           width: "100%",
           textAlign: "center",
-          opacity: 0.5,
+          opacity: 0.7,
         }}
       >
         &copy; McGill EUS 2022 <br />

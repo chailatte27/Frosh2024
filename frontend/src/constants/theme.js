@@ -23,6 +23,7 @@ export const getTheme = (mode) => ({
   typography: {
     p: {
       color: mode === "dark" ? dark.textColor : light.textColor,
+      fontSize: "1.2rem",
     },
     h3: {
       color: mode === "dark" ? dark.textColor : light.textColor,
