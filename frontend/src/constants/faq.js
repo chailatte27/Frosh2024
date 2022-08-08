@@ -28,7 +28,7 @@ export const FAQQuestions = [
   {
     question: "How much does Frosh cost?",
     answer:
-      "This year frosh is $___",
+      "This year frosh is $175 including tax. There is also an optional additional $5 for carbon-offset and bursaries",
   },
   {
     question: "Are Frosh events mandatory?",
