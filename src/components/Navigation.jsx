@@ -43,19 +43,10 @@ const ResponsiveAppBar = () => {
   const colorMode = React.useContext(ThemeContext);
   const [open, setOpen] = React.useState(false);
   const navigate = useNavigate();
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const goToPage = (page) => {
     navigate(page);
     setOpen(false);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -65,6 +56,7 @@ const ResponsiveAppBar = () => {
           <Toolbar disableGutters>
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               <img
+                alt="Frosh Logo"
                 src={FroshIcon}
                 width={50}
                 height={50}
@@ -102,6 +94,7 @@ const ResponsiveAppBar = () => {
             </Box>
             <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <img
+                alt="Frosh Logo"
                 src={FroshIcon}
                 width={50}
                 height={50}

@@ -1,12 +1,5 @@
 import { useTheme } from "@emotion/react";
-import {
-  IconButton,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Typography,
-} from "@mui/material";
+import { IconButton, Typography } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -88,7 +81,7 @@ export default function Footer() {
           fontSize: "12px",
           width: "100%",
           textAlign: "center",
-          opacity: 0.5,
+          opacity: 0.7,
         }}
       >
         &copy; McGill EUS 2022 <br />
