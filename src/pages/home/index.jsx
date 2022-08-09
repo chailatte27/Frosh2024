@@ -72,6 +72,9 @@ export default function Home() {
               width: "fit-content",
               marginLeft: "auto",
               marginRight: "auto",
+              ...(theme.palette.mode === "dark"
+                ? { backgroundColor: "#ccc" }
+                : {}),
             }}
           >
             <CardMedia
