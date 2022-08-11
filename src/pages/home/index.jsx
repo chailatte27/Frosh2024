@@ -5,7 +5,7 @@ import { WHAT_IS_FROSH } from "../../constants/home";
 import Header from "../../images/header_welcome.jpeg";
 import SponsorImage from "../../images/sponsors.png";
 
-const HEADER_HEIGHT = "560px";
+const HEADER_HEIGHT = "500px";
 
 export default function Home() {
   const theme = useTheme();
@@ -21,7 +21,6 @@ export default function Home() {
 
           paddingLeft: "auto",
           paddingRight: "auto",
-          // backgroundColor: theme.background,
         }}
       >
         <img

@@ -18,6 +18,7 @@ export default function Map() {
           title="Frosh Map"
           src="https://www.google.com/maps/d/embed?mid=1eL5VL549haGua8yGB-TihPa0CD7_vZs&ehbc=2E312F"
           width="640"
+          style={{ maxWidth: "calc(100% - 24px)", marginLeft: "10px" }}
           height="480"
         ></iframe>
       </div>
