@@ -28,7 +28,7 @@ export const FAQQuestions = [
   {
     question: "How much does Frosh cost?",
     answer:
-      "This year frosh is $175 including tax. There is also an optional additional $5 for carbon-offset and bursaries",
+      "This year frosh is approximately $179 including taxes and fees.",
   },
   {
     question: "Are Frosh events mandatory?",
