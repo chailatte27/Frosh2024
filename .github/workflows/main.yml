@@ -63,7 +63,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: production-files
-        path: /var/www/
+        path: /var/www/statics/frosh
 
     
     
