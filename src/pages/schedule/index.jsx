@@ -10,6 +10,7 @@ export default function Schedule() {
       <Card
         style={{
           width: "fit-content",
+
           marginLeft: "auto",
           marginRight: "auto",
         }}
@@ -17,14 +18,11 @@ export default function Schedule() {
         <CardMedia
           component="img"
           style={{
-            width: "auto",
-            height: "auto",
             marginLeft: "auto",
             marginRight: "auto",
-            maxWidth: "90%",
+            maxHeight: "85vh",
             objectFit: "contain",
             borderRadius: "5px",
-            marginBottom: "10px",
           }}
           image={ScheduleImage}
           alt="No img"
