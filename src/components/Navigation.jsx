@@ -37,7 +37,7 @@ const pages = [
   { name: "Map", link: "map", icon: <MapIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
   { name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
-  { name: "Register Now", link: "register", icon: <ArrowCircleRightIcon /> },
+  { name: "Register", link: "register", icon: <ArrowCircleRightIcon /> },
 ];
 
 const ResponsiveAppBar = () => {
