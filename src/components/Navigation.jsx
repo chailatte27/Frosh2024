@@ -16,6 +16,7 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import FroshIcon from "../images/frosh_logo.png";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 import { useNavigate } from "react-router";
 import {
@@ -35,6 +36,7 @@ const pages = [
   { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
   { name: "Map", link: "map", icon: <MapIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
+  { name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
   { name: "Register Now", link: "register", icon: <ArrowCircleRightIcon /> },
 ];
 

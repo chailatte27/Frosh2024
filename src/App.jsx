@@ -12,6 +12,7 @@ import Register from "./pages/register";
 import Footer from "./components/Footer";
 import Schedule from "./pages/schedule";
 import Map from "./pages/map";
+import Handbook from "./pages/handbook";
 
 function App() {
   const [mode, setMode] = React.useState("dark");
@@ -38,6 +39,7 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/map" element={<Map />} />
+            <Route path="/handbook" element={<Handbook />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/register" element={<Register />} />
           </Routes>
