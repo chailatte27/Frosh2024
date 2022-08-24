@@ -10,6 +10,7 @@ export default function Handbook() {
       }}
     >
       <iframe
+        title="Froshie Handbook"
         style={{
           height: "85vh",
           width: "75vw",
