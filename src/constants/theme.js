@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const dark = {
-  background: "#214a45",
+  background: "#13124a",
   textColor: "#eee",
   primary: "rgb(77,166,160)",
   secondary: "rgb(57,136,120)",
@@ -10,7 +10,7 @@ const dark = {
 const light = {
   background: "#fcf7e6",
   textColor: "#000",
-  primary: "rgb(158,120,60)",
+  primary: "rgb(252, 206, 178)",
   secondary: "rgb(212,180,80)",
   card: "#fff",
 };
