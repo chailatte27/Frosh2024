@@ -58,7 +58,7 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://drive.google.com/file/d/1c3cRhjv1KXxtrfnLfsSKHiImp28Rdzv_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1c3cRhjv1KXxtrfnLfsSKHiImp28Rdzv_/view?usp=sharing" //TODO: Update link
           >
             Bursary Form
           </Button>
