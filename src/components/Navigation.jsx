@@ -79,7 +79,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              McGill Engineering Frosh 2022
+              McGill Engineering Frosh 2023
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -118,7 +118,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              Frosh 2022
+              Frosh 2023
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page, i) => (

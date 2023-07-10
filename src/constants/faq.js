@@ -2,12 +2,12 @@ export const FAQQuestions = [
   {
     question: "What is Frosh?",
     answer:
-      "McGill Engineering Frosh 2022 is a five-day event for new undergraduate Engineering students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
+      "McGill Engineering Frosh 2023 is a five-day event for new undergraduate Engineering students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
   },
   {
     question: "When is Frosh?",
     answer:
-      "Frosh takes place from August 25th - August 29th 2022. Classes will begin on August 31st",
+      "Frosh takes place from August 24th - August 27th 2023. Classes will begin on August 31st",
   },
   {
     question: "What happens during frosh?",
@@ -28,7 +28,8 @@ export const FAQQuestions = [
   {
     question: "How much does Frosh cost?",
     answer:
-      "This year frosh is approximately $179 including taxes and fees.",
+      // "This year frosh is approximately $179 including taxes and fees.", //TODO: update price
+      "The price for this year's frosh is not available yet.",
   },
   {
     question: "Are Frosh events mandatory?",
@@ -81,9 +82,9 @@ export const FAQQuestions = [
   },
   {
     question:
-      "Will there be in-person events during the 2022 fall semester?",
+      "Will there be in-person events during the 2023 fall semester?",
     answer:
-      "Yes! This year we are aiming for a fully in-person frosh and a fully in-person fall semester (pending government regulations of course).",
+      "Yes! This year will be a fully in-person frosh and a fully in-person fall semester.",
   },
   {
     question: "Where can I learn more about groups and clubs on campus?",

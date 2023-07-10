@@ -44,7 +44,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        McGill Engineering Frosh 2022
+        McGill Engineering Frosh 2023
       </Typography>
       <Typography
         variant="h6"
@@ -84,7 +84,7 @@ export default function Footer() {
           opacity: 0.7,
         }}
       >
-        &copy; Engineering Undergraduate Society of McGill University 2022 <br />
+        &copy; Engineering Undergraduate Society of McGill University 2023 <br />
         Made by Ryan Reszetnik
       </Typography>
     </div>

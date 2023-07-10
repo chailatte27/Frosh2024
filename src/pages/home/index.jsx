@@ -2,7 +2,7 @@ import { useTheme } from "@emotion/react";
 import { Card, CardMedia, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import { WHAT_IS_FROSH } from "../../constants/home";
-import Header from "../../images/header_welcome.jpeg";
+import Header from "../../images/header_welcome.png";
 import SponsorImage from "../../images/sponsors.png";
 
 const HEADER_HEIGHT = "max(460px, 45vw)";
@@ -59,7 +59,7 @@ export default function Home() {
             title="Frosh Trailer"
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/LJWuFxlnTDg"
+            src="https://www.youtube.com/watch?v=MsfbEhUl30s&ab_channel=McGillEngineeringOrientationWeek"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           />
