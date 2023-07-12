@@ -59,7 +59,7 @@ export default function Home() {
             title="Frosh Trailer"
             width="100%"
             height="400"
-            src="https://www.youtube.com/watch?v=MsfbEhUl30s&ab_channel=McGillEngineeringOrientationWeek"
+            src="https://www.youtube.com/embed/MsfbEhUl30s"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           />
@@ -72,7 +72,7 @@ export default function Home() {
               marginLeft: "auto",
               marginRight: "auto",
               ...(theme.palette.mode === "dark"
-                ? { backgroundColor: "#ccc" }
+                ? { backgroundColor: "#13124a" }
                 : {}),
             }}
           >
@@ -83,7 +83,7 @@ export default function Home() {
                 height: "auto",
                 marginLeft: "auto",
                 marginRight: "auto",
-                maxWidth: "90%",
+                maxWidth: "50%",
                 objectFit: "contain",
                 borderRadius: "5px",
                 marginBottom: "10px",
@@ -91,6 +91,19 @@ export default function Home() {
               image={SponsorImage}
               alt="No img"
             />
+            <div>
+              <Typography
+                variant="h6"
+                style={{
+                  fontSize: "20px",
+                  width: "100%",
+                  textAlign: "center",
+                }}
+              >
+                Want some stickers? Visit{" "}
+                <a href="https://www.stickermule.com/" style={{ color: "orange" }} target="_blank" rel="noopener noreferrer">Stickermule</a>
+              </Typography>
+            </div>
           </Card>
         </div>
       </div>
