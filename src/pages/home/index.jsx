@@ -87,17 +87,21 @@ export default function Home() {
                 objectFit: "contain",
                 borderRadius: "5px",
                 marginBottom: "10px",
+                backgroundColor: theme.background,
               }}
+              
               image={SponsorImage}
               alt="No img"
             />
             <div>
+              
               <Typography
                 variant="h6"
                 style={{
                   fontSize: "20px",
                   width: "100%",
                   textAlign: "center",
+                  backgroundColor: theme.background,
                 }}
               >
                 Want some stickers? Visit{" "}
