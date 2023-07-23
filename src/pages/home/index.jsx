@@ -104,7 +104,7 @@ export default function Home() {
                   backgroundColor: theme.background,
                 }}
               >
-                Want some stickers? Visit{" "}
+                Looking for custom stickers? Visit{" "}
                 <a href="https://www.stickermule.com/" style={{ color: "orange" }} target="_blank" rel="noopener noreferrer">Stickermule</a>
               </Typography>
             </div>
