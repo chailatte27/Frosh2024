@@ -58,7 +58,8 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://drive.google.com/file/d/1c3cRhjv1KXxtrfnLfsSKHiImp28Rdzv_/view?usp=sharing" //TODO: Update link
+            href="https://dochub.com/oweek-communications/r4D6EkZVZJO1EqDVpQXW7O/pdf-frosh-2023-bursary-application-participant-pdf?dt=iU2XZ3pZ6jsDNY_mnyWX"
+            target="_blank"
           >
             Bursary Form
           </Button>
