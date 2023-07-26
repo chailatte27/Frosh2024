@@ -105,7 +105,7 @@ export default function Home() {
                 }}
               >
                 Looking for custom stickers? Visit{" "}
-                <a href="https://www.stickermule.com/" style={{ color: "orange" }} target="_blank" rel="noopener noreferrer">Stickermule</a>
+                <a href="https://mule.to/p4a3" style={{ color: "orange" }} target="_blank" rel="noopener noreferrer">Stickermule</a>
               </Typography>
             </div>
           </Card>
