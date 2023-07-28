@@ -42,7 +42,8 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://cvent.me/52WvWg"
+            href="https://cvent.me/QKmENQ?rt=h04V-a1XhkCyMnroqPjTrw"
+            target="_blank"
           >
             Register Here
           </Button>
