@@ -28,8 +28,7 @@ export const FAQQuestions = [
   {
     question: "How much does Frosh cost?",
     answer:
-      // "This year frosh is approximately $179 including taxes and fees.", //TODO: update price
-      "The price for this year's frosh is not available yet.",
+      "The price for this year's frosh is 165$ including taxes.",
   },
   {
     question: "Are Frosh events mandatory?",
