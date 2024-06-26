@@ -2,7 +2,7 @@ export const FAQQuestions = [
   {
     question: "What is Frosh?",
     answer:
-      "McGill Engineering Frosh 2023 is a five-day event for new undergraduate Engineering students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
+      "boo 2023 is a five-day event for new undergraduate Engineering students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
   },
   {
     question: "When is Frosh?",
