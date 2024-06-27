@@ -2,7 +2,7 @@ import { useTheme } from "@emotion/react";
 import { Card, CardMedia, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import { WHAT_IS_FROSH } from "../../constants/home";
-import Header from "../../images/header_welcome.png";
+import Header from "../../images/Lorax_Banner.png";
 import SponsorImage from "../../images/sponsors.png";
 
 const HEADER_HEIGHT = "max(460px, 45vw)";

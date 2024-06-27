@@ -15,7 +15,7 @@ import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import FroshIcon from "../images/frosh_logo.png";
+import FroshIcon from "../images/frosh_2024_logo.png";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 import { useNavigate } from "react-router";
@@ -79,7 +79,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              McGill Engineering Frosh 2023
+              McGill Engineering Frosh 2024
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -118,7 +118,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              Frosh 2023
+              Frosh 2024
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page, i) => (

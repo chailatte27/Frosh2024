@@ -1,3 +1,4 @@
+//When clicking registration this is the text
 export const HOW_TO_REGISTER =
   "Registration opens early August and will be done on the same website for all of the faculties. It is now open at the link below! If you have any questions consult our FAQ page and then feel free to contact us on any of our social medias linked with icons at the bottom of the page.";
 

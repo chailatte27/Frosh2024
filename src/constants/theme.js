@@ -1,5 +1,5 @@
 import { createContext } from "react";
-
+//change the colors for the theme
 const dark = {
   background: "#13124a",
   textColor: "#eee",

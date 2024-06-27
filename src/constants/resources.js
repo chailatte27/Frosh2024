@@ -1,3 +1,4 @@
+//all ressources info
 import { Link, Typography } from "@mui/material";
 import Drivesafe from "../images/resourceImages/drivesafe.png";
 import CampusLifeAndEngagement from "../images/resourceImages/campus-life-and-engagement.png";
