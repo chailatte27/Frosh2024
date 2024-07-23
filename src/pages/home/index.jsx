@@ -117,7 +117,7 @@ export default function Home() {
             title="Frosh Trailer"
             width="100%"
             height="400"
-            src="https://www.youtube.com/watch?v=lH0lnraXZEU&ab_channel=McGillEngineeringOrientationWeek"
+            src="https://www.youtube.com/embed/lH0lnraXZEU?si=aK3yvcv78Y2eNy5H"
             frameBorder="10"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           />
