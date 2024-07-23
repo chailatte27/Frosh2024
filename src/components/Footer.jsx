@@ -85,7 +85,7 @@ export default function Footer() {
         }}
       >
         &copy; Engineering Undergraduate Society of McGill University 2024 <br />
-        Made by Ryan Reszetnik
+        Made by Ryan Reszetnik and modified by Emily Chai
       </Typography>
     </div>
   );
