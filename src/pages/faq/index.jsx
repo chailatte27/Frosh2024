@@ -29,14 +29,13 @@ export default function FAQ() {
 
   const handleChangeTab = (event, newValue) => {
     setSelectedTab(newValue);
-    setSearchTerm(""); // Reset search term when changing tabs
+    setSearchTerm("");
   };
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
 
-  // Filter questions based on search term and selected tab
   const filteredQuestions = FAQQuestions.filter((q) => {
     const matchesSearchTerm = q.question.toLowerCase().includes(searchTerm.toLowerCase());
     return searchTerm ? matchesSearchTerm : q.category === selectedTab;
