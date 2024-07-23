@@ -44,7 +44,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        McGill Engineering Frosh
+        McGill Engineering Frosh 2024
       </Typography>
       <Typography
         variant="h6"
@@ -53,7 +53,7 @@ export default function Footer() {
           width: "100%",
         }}
       >
-        3480 Rue University #7, Montreal, Quebec H3A 0E9
+        Address: 3480 Rue University #7, Montreal, Quebec H3A 0E9
       </Typography>
       <Typography
         variant="h6"
@@ -62,7 +62,7 @@ export default function Footer() {
           width: "100%",
         }}
       >
-        (514) 398-4396
+        Phone : (514) 398-4396
       </Typography>
       <Typography
         variant="h6"
@@ -72,7 +72,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        oweek.communications@mcgilleus.ca
+        Email : oweek.communications@mcgilleus.ca
       </Typography>
       <hr style={{ width: "50%", opacity: 0.2 }} />
       <Typography
@@ -84,8 +84,8 @@ export default function Footer() {
           opacity: 0.7,
         }}
       >
-        &copy; Engineering Undergraduate Society of McGill University 2024 <br />
-        Made by Ryan Reszetnik and modified by Emily Chai
+        &copy; Engineering Undergraduate Society of McGill University 2023 <br />
+        Made by Ryan Reszetnik
       </Typography>
     </div>
   );
