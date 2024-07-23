@@ -9,7 +9,7 @@ const dark = {
 };
 const light = {
   background: "#c6d7ff",
-  textColor: "#00000",
+  textColor: "#000",
   primary: "rgb(238,112,2)", 
   secondary: "rgb(255,150,176)",
   card: "#fff",

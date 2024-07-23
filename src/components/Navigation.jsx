@@ -78,7 +78,7 @@ const ResponsiveAppBar = () => {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: "inherit",
+                color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
@@ -117,7 +117,7 @@ const ResponsiveAppBar = () => {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: "inherit",
+                color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
@@ -130,7 +130,7 @@ const ResponsiveAppBar = () => {
                   variant={i === pages.length - 1 ? "contained" : "text"}
                   key={page.name}
                   onClick={() => goToPage(page.link)}
-                  sx={{ my: 2, color: "inherit", display: "block" }}
+                  sx={{ my: 2, color: theme.palette.text.primary, display: "block" }}
                 >
                   {page.name}
                 </Button>

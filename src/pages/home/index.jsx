@@ -164,7 +164,7 @@ export default function Home() {
               ))}
             </Carousel>
           )}
-          <div style={{ textAlign: "center", marginTop: "20px", color: theme.palette.text }}>
+          <div style={{ textAlign: "center", marginTop: "20px", color: theme.palette.text.primary }}>
             <Button variant="contained" color="primary" onClick={handleViewAllClick}>
               {showAllSponsors ? "Show Less" : "View All"}
             </Button>
