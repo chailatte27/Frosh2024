@@ -1,46 +1,71 @@
-import * as React from "react";
-import Accordion from "@mui/material/Accordion";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Button, Typography } from "@mui/material";
+import React from "react";
+import { HOW_TO_REGISTER, STEPS_TO_TAKE } from "../../constants/registration";
 
-import { FAQQuestions } from "../../constants/faq";
-
-export default function FAQ() {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
-
+export default function Register() {
   return (
-    <div
-      style={{
-        maxWidth: "90%",
-        marginLeft: "auto",
-        marginRight: "auto",
-        marginTop: "10px",
-      }}
-    >
-      <Typography variant="h1">FAQ</Typography>
-      {FAQQuestions.map((q, i) => (
-        <Accordion
-          expanded={expanded === q.question}
-          onChange={handleChange(q.question)}
+    <div style={{ marginTop: "10px" }}>
+      <Typography variant="h1">Registration</Typography>
+      <div
+        style={{
+          padding: "10px 20px 50px 20px",
+          width: "90%",
+          marginLeft: "auto",
+          marginRight: "auto",
+          maxWidth: "1000px",
+        }}
+      >
+        <div>
+          <Typography variant="p">{HOW_TO_REGISTER}</Typography>
+        </div>
+        <div style={{ padding: "20px 25px 50px 25px" }}>
+          {STEPS_TO_TAKE.map((step, index) => (
+            <div style={{ paddingBottom: "1em" }}>
+              <Typography variant="p">
+                <strong>Step {index + 1}:</strong> {step}
+              </Typography>
+            </div>
+          ))}
+          <Typography variant="p">
+            *You must complete Steps 1-4 before coming to pick up your
+            credentials and gear*
+          </Typography>
+        </div>
+        <div
+          style={{
+            width: "fit-content",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: "10px",
+          }}
         >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1bh-content"
-            id="panel1bh-header"
+          <Button
+            variant="contained"
+            size="large"
+            href="https://cvent.me/QKmENQ?rt=h04V-a1XhkCyMnroqPjTrw"
+            target="_blank"
           >
-            <Typography sx={{ fontSize: "1.15em" }}>{q.question}</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>{q.answer}</Typography>
-          </AccordionDetails>
-        </Accordion>
-      ))}
+            Register Here
+          </Button>
+        </div>
+        <div
+          style={{
+            width: "fit-content",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: "10px",
+          }}
+        >
+          <Button
+            variant="contained"
+            size="large"
+            href="https://dochub.com/oweek-communications/EB5r38Awl013ZYpwXzZ1kD/pdf-frosh-2023-bursary-application-participants-pdf"
+            target="_blank"
+          >
+            Bursary Form
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
