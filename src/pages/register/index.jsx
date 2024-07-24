@@ -47,8 +47,8 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://cvent.me/QKmENQ?rt=h04V-a1XhkCyMnroqPjTrw"
             target="_blank"
+            href="https://involvement.mcgill.ca/organization/eus"
           >
             Register Here
           </Button>
