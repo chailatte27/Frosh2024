@@ -47,7 +47,6 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://involvement.mcgill.ca/organization/eus"
             target="_blank"
           >
             Register Here
