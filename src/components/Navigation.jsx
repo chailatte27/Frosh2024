@@ -52,7 +52,7 @@ const ResponsiveAppBar = () => {
     setOpen(false);
   };
 
-  //const FroshIcon = theme.palette.mode === "dark" ? DarkFroshIcon : LightFroshIcon;
+  const FroshIcon = theme.palette.mode === "dark" ? DarkFroshIcon : LightFroshIcon;
 
   return (
     <React.Fragment>
@@ -62,7 +62,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               <img
                 alt="Frosh Logo"
-                src={DarkFroshIcon}
+                src={FroshIcon}
                 width={50}
                 height={50}
                 style={{ paddingRight: "20px" }}
@@ -100,7 +100,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <img
                 alt="Frosh Logo"
-                src={DarkFroshIcon}
+                src={FroshIcon}
                 width={50}
                 height={50}
                 style={{ paddingRight: "20px" }}
