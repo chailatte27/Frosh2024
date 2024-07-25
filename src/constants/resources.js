@@ -15,6 +15,7 @@ import OSVERSE from "../images/resourceImages/osverse.png";
 import OSD from "../images/resourceImages/osd.png";
 import SACOMSS from "../images/resourceImages/sacomms.jpeg";
 import SEDE from "../images/resourceImages/sede.png";
+import LICM from "../images/resourceImages/licm.png";
 
 export const RESOURCES = [
   {
@@ -275,6 +276,21 @@ export const RESOURCES = [
         assault and their allies through direct support, advocacy, and outreach.
         For more information, check out their{" "}
         <Link href="http://www.sacomss.org/wp/">website</Link>.
+      </Typography>
+    ),
+  },
+  {
+    name: "Legal Information Clinic at McGill (LICM)",
+    phoneNumber: "(514)-398-6792",
+    image: LICM,
+    description: (
+      <Typography variant="p">
+        The LICM is committed to increasing access to justice for
+        McGill and Montreal communities and to meeting the needs of
+        students and marginalized groups because justice matters for
+        everyone.
+        For more information, check out their{" "}
+        <Link href="https://licm.ca/">website</Link>.
       </Typography>
     ),
   },
