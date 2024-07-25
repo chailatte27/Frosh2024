@@ -1,17 +1,17 @@
 import { createContext } from "react";
-
+//change the colors for the theme
 const dark = {
-  background: "#13124a",
+  background: "#043b66",
   textColor: "#eee",
-  primary: "rgb(77,166,160)",
-  secondary: "rgb(57,136,120)",
+  primary: "rgb(238,112,2)", //button color
+  secondary: "rgb(26,2,44)", //top bar color and links color
   card: "#111",
 };
 const light = {
-  background: "#fcf7e6",
+  background: "#c6d7ff",
   textColor: "#000",
-  primary: "rgb(252, 206, 178)",
-  secondary: "rgb(212,180,80)",
+  primary: "rgb(238,112,2)", 
+  secondary: "rgb(255,150,176)",
   card: "#fff",
 };
 

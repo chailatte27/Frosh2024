@@ -23,7 +23,7 @@ export default function Resources() {
                       maxWidth: "90%",
                       maxHeight: "200px",
                       objectFit: "contain",
-                      borderRadius: "5px",
+                      borderRadius: "10px",
                       marginTop: "10px",
                     }}
                     image={resource.image}
@@ -56,7 +56,7 @@ export default function Resources() {
                       maxWidth: "90%",
                       maxHeight: "200px",
                       objectFit: "contain",
-                      borderRadius: "5px",
+                      borderRadius: "20px",
                       marginTop: "10px",
                     }}
                     image={resource.image}

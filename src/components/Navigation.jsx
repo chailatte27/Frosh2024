@@ -15,7 +15,8 @@ import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import FroshIcon from "../images/frosh_logo.png";
+import LightFroshIcon from "../images/frosh_2024_logo_light.png";
+import DarkFroshIcon from "../images/frosh_2024_logo_dark.png";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 import { useNavigate } from "react-router";
@@ -33,10 +34,10 @@ import { useTheme } from "@emotion/react";
 const pages = [
   { name: "Home", link: "", icon: <HomeIcon /> },
   { name: "Schedule", link: "schedule", icon: <MessageIcon /> },
-  { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
-  { name: "Map", link: "map", icon: <MapIcon /> },
+  //{ name: "Map", link: "map", icon: <MapIcon /> },
+  //{ name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
-  { name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
+  { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
   { name: "Register", link: "register", icon: <ArrowCircleRightIcon /> },
 ];
 
@@ -51,10 +52,12 @@ const ResponsiveAppBar = () => {
     setOpen(false);
   };
 
+  const FroshIcon = theme.palette.mode === "dark" ? DarkFroshIcon : LightFroshIcon;
+
   return (
     <React.Fragment>
-      <AppBar position="sticky">
-        <Container maxWidth="xl">
+      <AppBar position="sticky" style={{ backgroundColor: theme.palette.secondary.main }}>
+      <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               <img
@@ -75,11 +78,11 @@ const ResponsiveAppBar = () => {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: "inherit",
+                color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
-              McGill Engineering Frosh 2023
+              McGill Engineering Frosh 2024
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -114,20 +117,20 @@ const ResponsiveAppBar = () => {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: "inherit",
+                color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
-              Frosh 2023
+              Frosh 2024
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page, i) => (
                 <Button
-                  color="secondary"
+                  color="primary"
                   variant={i === pages.length - 1 ? "contained" : "text"}
                   key={page.name}
                   onClick={() => goToPage(page.link)}
-                  sx={{ my: 2, color: "white", display: "block" }}
+                  sx={{ my: 2, color: theme.palette.text.primary, display: "block" }}
                 >
                   {page.name}
                 </Button>

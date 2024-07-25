@@ -44,7 +44,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        McGill Engineering Frosh 2023
+        McGill Engineering Frosh 2024
       </Typography>
       <Typography
         variant="h6"

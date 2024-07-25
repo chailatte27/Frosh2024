@@ -22,13 +22,18 @@ export default function Register() {
           {STEPS_TO_TAKE.map((step, index) => (
             <div style={{ paddingBottom: "1em" }}>
               <Typography variant="p">
-                <strong>Step {index + 1}:</strong> {step}
+                {step}
               </Typography>
             </div>
           ))}
           <Typography variant="p">
             *You must complete Steps 1-4 before coming to pick up your
             credentials and gear*
+          </Typography>
+        </div>
+        <div style={{paddingBottom: "50px"}}>
+          <Typography variant="p">
+            <strong>Reach out to oweek.communications@eusmcgill.ca if you have nay questions.</strong>
           </Typography>
         </div>
         <div
@@ -42,13 +47,13 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://cvent.me/QKmENQ?rt=h04V-a1XhkCyMnroqPjTrw"
             target="_blank"
+            href="https://involvement.mcgill.ca/organization/eus"
           >
             Register Here
           </Button>
         </div>
-        <div
+        {/*<div
           style={{
             width: "fit-content",
             marginLeft: "auto",
@@ -64,7 +69,7 @@ export default function Register() {
           >
             Bursary Form
           </Button>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
