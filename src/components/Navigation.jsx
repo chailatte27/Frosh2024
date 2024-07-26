@@ -5,7 +5,6 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import MenuIcon from "@mui/icons-material/Menu";
-import MapIcon from "@mui/icons-material/Map";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import HomeIcon from "@mui/icons-material/Home";
@@ -17,7 +16,6 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import LightFroshIcon from "../images/frosh_2024_logo_light.png";
 import DarkFroshIcon from "../images/frosh_2024_logo_dark.png";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 import { useNavigate } from "react-router";
 import {

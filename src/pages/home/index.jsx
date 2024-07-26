@@ -158,7 +158,7 @@ export default function Home() {
               {sponsorData.map((sponsor, index) => (
                 <div key={index} style={whiteBoxStyle}>
                   <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
-                    <img src={sponsor.src} alt={`Carousel Image ${index + 1}`} style={imageStyle} />
+                    <img src={sponsor.src} alt={`Carousel ${index + 1}`} style={imageStyle} />
                   </a>
                 </div>
               ))}
