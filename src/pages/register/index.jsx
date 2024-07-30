@@ -33,7 +33,7 @@ export default function Register() {
         </div>
         <div style={{paddingBottom: "50px"}}>
           <Typography variant="p">
-            <strong>Reach out to oweek.communications@eusmcgill.ca if you have nay questions.</strong>
+            <strong>Reach out to oweek.communications@eusmcgill.ca if you have any questions.</strong>
           </Typography>
         </div>
         <div
