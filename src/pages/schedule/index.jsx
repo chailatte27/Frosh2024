@@ -7,11 +7,11 @@ export default function Schedule() {
     <div style={{ marginTop: "10px", textAlign: "center" }}>
       <Typography variant="h1">Schedule</Typography>
 
-      {/*<Typography variant="h6" style={{ marginTop: "20px" }}>
+      <Typography variant="h6" style={{ marginTop: "20px" }}>
         The schedule will be released soon. Stay tuned!
         Here is a previous years schedule as an example of the events that will happen
       </Typography>
-      <Typography variant="h6" style={{ marginTop: "10px" }}>
+      {/*<Typography variant="h6" style={{ marginTop: "10px" }}>
         Here is a previous years schedule as an example of the events that will happen
       </Typography>
       */}
